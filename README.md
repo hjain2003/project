@@ -1,5 +1,5 @@
 # Project Overview
-# EtherMate: A Block-chain and ML powered Crypto shared wallet
+# EtherMate: A Blockchain and ML powered Crypto shared wallet
 ### Demo video: https://youtu.be/6F5NWCc2VPY
 ## Key Features:
 - Create groups to pool cryptocurrency in the shared wallet group
