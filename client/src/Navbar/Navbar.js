@@ -14,7 +14,10 @@ const Navbar = () => {
   const [openCCard, setOpenCCard] = useState(false);
 
   const handleOpenCLogoClick = () => {
+<<<<<<< HEAD
     
+=======
+>>>>>>> 9841328b846d77b0285eeeb05322083ee04f35c6
     setOpenCCard(true);
     
   };
@@ -43,11 +46,15 @@ const Navbar = () => {
         </div>
       </Link>
 
+<<<<<<< HEAD
       <Link to="/dashboard" className="linkremove">
+=======
+>>>>>>> 9841328b846d77b0285eeeb05322083ee04f35c6
       <div to="/" className="linkremove" onClick={handleOpenCLogoClick}>
         <div className="nav-element">
           <img src={depositsLogo} className="nav-logo" alt="Deposits" />
           <div className="nav-topic">Charity</div>
+<<<<<<< HEAD
         </div>
       </div>
       </Link>
@@ -56,9 +63,21 @@ const Navbar = () => {
         <div className="nav-element">
           <img src={profileLogo} className="nav-logo" alt="Profile" />
           <div className="nav-topic">Split</div>
+=======
+>>>>>>> 9841328b846d77b0285eeeb05322083ee04f35c6
+        </div>
+      </div>
+
+<<<<<<< HEAD
+=======
+      <Link to="/" className="linkremove">
+        <div className="nav-element">
+          <img src={profileLogo} className="nav-logo" alt="Profile" />
+          <div className="nav-topic">Profile</div>
         </div>
       </Link>
 
+>>>>>>> 9841328b846d77b0285eeeb05322083ee04f35c6
       {openCCard && <Charity sopen={openCCard} onClose={CardCClose} />}
     </div>
   );
